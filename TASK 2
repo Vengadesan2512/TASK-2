@@ -1,0 +1,28 @@
+Document Object
+        The Document object represents the HTML content of a web page. It is essentially an interface to the web page's structure and content, allowing developers to access and manipulate the elements within the HTML document.
+Represents the HTML Document: 
+         The Document object represents the entire HTML document and provides access to all its elements, including headings, paragraphs, images, links, and more.
+
+Hierarchical Structure:
+         HTML documents have a hierarchical structure, and the Document object reflects this structure. It allows you to navigate through the DOM (Document Object Model) tree, moving from one element to another.
+
+Accessing Elements:
+         Developers can use the Document object to access and modify elements within the HTML document. Common methods include getElementById, getElementsByClassName, and getElementsByTagName.
+
+Content Manipulation:
+        You can use the Document object to add, delete, or modify content on a web page. This is particularly useful when dynamically updating a page with JavaScript.
+----------------------------------------------------------------------------------
+Window Object
+       The Window object represents the browser window or tab in which a web page is loaded. It is a top-level object that provides access to various browser-related functionalities and properties.
+Represents the Browser Window:
+       The Window object represents the entire browser window or tab. It is, in essence, the global object for client-side JavaScript and serves as the entry point for many web-related functions.
+
+Global Scope: 
+       Variables and functions declared in the global scope are attached to the Window object. This means that they can be accessed from any script running in the web page.
+
+Browser-Related Functionalities:
+       The Window object provides access to various browser-related functionalities, such as opening new windows or tabs, resizing the window, navigating to URLs, and interacting with browser history.
+
+Timers and Events:
+      It is used to manage timers and handle events like mouse clicks, keyboard inputs, and window resizing.
+
